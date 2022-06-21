@@ -1,0 +1,31 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "多功能中文Discord機器人",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyc346780/discord-bot.git"
+  },
+  "keywords": [
+    "discordjs"
+  ],
+  "author": "cyc346780",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyc346780/discord-bot/issues"
+  },
+  "homepage": "https://github.com/cyc346780/discord-bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.33.0",
+    "discord-player": "^5.2.2",
+    "discord.js": "^13.7.0",
+    "ffmpeg-static": "^4.4.1"
+  }
+}

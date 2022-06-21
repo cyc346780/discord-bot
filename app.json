@@ -1,0 +1,46 @@
+{
+    "name": "discord-bot",
+    "description": "多功能中文Discord機器人",
+    "keywords": [
+        "discordjs"
+    ],
+    "website": "https://github.com/cyc346780/discord-bot#readme",
+    "repository": "https://github.com/cyc346780/discord-bot.git",
+    "success_url": "/welcome",
+    "env": {
+        "TOKEN": {
+            "description": "機器人的TOKEN",
+            "required": true
+        },
+        "CLIENT_ID": {
+            "description": "機器人的CLIENT_ID",
+            "required": true
+        },
+        "GUILD_ID": {
+            "description": "伺服器的ID",
+            "required": true
+        },
+        "VOTE_CHANNEL_ID": {
+            "description": "投票頻道的ID",
+            "required": true
+        },
+        "MUSIC_CHANNEL_ID": {
+            "description": "音樂頻道的ID",
+            "required": true
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 0
+        },
+        "worker": {
+            "quantity": 1
+        }
+    },
+    "image": "heroku/nodejs",
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        }
+    ]
+}
